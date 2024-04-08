@@ -34,6 +34,8 @@ $ sudo apt update
 $ sudo apt install python3
 $ sudo apt install python3-pip
 $ pip3 install -U sphinx -i https://pypi.tuna.tsinghua.edu.cn/simple
+# 如果需要渲染成 html，需要额外安装 sphinx-rtd-theme
+$ pip3 install -U sphinx-rtd-theme -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 注意，执行 pip3 下载 python 包时默认使用国外源，这里使用 `-i` 指定采用国内的清华大学的 pip 源可以加速下载过程。
